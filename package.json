@@ -1,0 +1,34 @@
+{
+	"name": "BJK",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "lite-server -c=bs-config.json",
+		"prod": "lite-server --baseDir='dist'"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.24.1",
+		"babel-core": "^6.24.1",
+		"babel-loader": "^7.0.0",
+		"babel-preset-es2015": "^6.24.1",
+		"babel-register": "^6.24.1",
+		"clean-webpack-plugin": "^0.1.16",
+		"css-loader": "^0.28.1",
+		"cssnano": "^3.10.0",
+		"extract-text-webpack-plugin": "^2.1.0",
+		"file-loader": "^0.11.1",
+		"html-loader": "^0.4.5",
+		"html-webpack-plugin": "^2.28.0",
+		"lite-server": "^2.3.0",
+		"optimize-css-assets-webpack-plugin": "^1.3.1",
+		"script-loader": "^0.7.0",
+		"style-loader": "^0.17.0",
+		"url-loader": "^0.5.8",
+		"webpack": "^2.5.1"
+	},
+	"dependencies": {
+		"jquery": "1.12",
+		"scriptjs": "^2.5.8"
+	}
+}
